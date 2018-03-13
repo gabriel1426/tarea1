@@ -1,0 +1,108 @@
+
+body {
+    font-family: sans-serif;
+}
+
+
+h3{
+    font-family:sans-serif;
+    
+}
+
+
+header{
+    margin: 0;
+    border-style: ridge;
+    font-family: sans-serif;
+    width: 99%;
+    background: #4E94AB;
+
+}
+img {
+    
+    margin-right: 10px;
+    vertical-align: middle;
+    }
+
+#imagen{
+    width: 15%;
+    height: 30%;
+}
+    
+
+
+#menu1{
+    
+margin: 0;
+list-style: none;
+display: flex;
+justify-content: flex-end;
+}
+
+li:hover{
+background: rgba(0,0,0,0.3);
+
+}
+li a {
+
+display: block;
+padding: 15px 20px;
+color: white;
+text-decoration: none;
+}
+table {
+
+    border-collapse: separate;
+    border-spacing:  10px;
+   
+    width: 100%
+}
+#presentacion{
+    border:"1";
+    border-collapse: separate;
+    border-spacing:  10px;
+    width: 50%;
+}
+#presentacion tr td{
+    border:"1";
+    border-collapse: separate;
+    border-spacing:  10px;
+    
+
+}
+td {
+    height: 50px;
+}
+
+#menu2{
+
+    list-style: none;
+   
+    display: flex;
+    
+    }
+
+
+    form {
+
+        margin-top: 3%;
+        display: block;
+
+    }
+    label{
+
+        margin-top:3%
+    }
+    footer{
+        border-style: ridge;
+        position: fixed;
+        margin-top: -10px;
+        font-family: sans-serif;
+        background: #4E94AB;
+        width: 98%;
+        height: 9%;
+        clear: both;
+        text-align: end;
+        bottom: 0;
+        
+    }
